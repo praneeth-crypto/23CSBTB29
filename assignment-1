@@ -1,0 +1,273 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO0kuaLhwqWpjsc0OIj6sZF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/praneeth-crypto/23CSBTB29/blob/main/assignment-1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dH8rrWUst0k2",
+        "outputId": "2fdd5402-7c1a-4ed6-abc6-e037d4b38627"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{2: 4, 5: 25, 3: 9, 8: 64, 6: 36}\n",
+            "<class 'dict'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "lst={2:4,5:25,3:9,8:64,6:36}\n",
+        "print(lst)\n",
+        "print(type(lst))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "5asLJvh3zA5M"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "arr={5}\n",
+        "print(arr)\n",
+        "print(type(arr))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "N_aFaZAjw8gx",
+        "outputId": "78b0c376-3d85-4ddc-c789-8fec1f863478"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{5}\n",
+            "<class 'set'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "arr=np.array([2,3,5,7,3,8])\n",
+        "print(arr)\n",
+        "print(type(arr))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OG-fhVZYyC7s",
+        "outputId": "babe7122-e35f-43b7-e28f-70391756c820"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[2 3 5 7 3 8]\n",
+            "<class 'numpy.ndarray'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#Part 1 – Implement Basic Data Structures using Numpy, Pandas\n",
+        "l1=[1,23,45,67]\n",
+        "l2=[34,49,23,64]\n",
+        "l3=\"apple\"\n",
+        "print(l1+l2)\n",
+        "print(type(l1))\n",
+        "print(type(l3))\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "I4fpRxqO83Xa",
+        "outputId": "7ac6cf67-52a7-40c1-80a6-d2ebac44a3a6"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 23, 45, 67, 34, 49, 23, 64]\n",
+            "<class 'list'>\n",
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "a=np.array(l1)\n",
+        "b=np.array(l2)\n",
+        "print(\"Add = \",a+b)\n",
+        "print(\"Mul = \",a*b)\n",
+        "print(\"Sub = \",a-b)\n",
+        "print(\"Div = \",a/b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Dd-t4KyU9pAa",
+        "outputId": "f0c89f34-501e-4d88-d836-b3a2511bfa3e"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Add =  [ 35  72  68 131]\n",
+            "Mul =  [  34 1127 1035 4288]\n",
+            "Sub =  [-33 -26  22   3]\n",
+            "Div =  [0.02941176 0.46938776 1.95652174 1.046875  ]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "2UAnjRbN-YdP"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "D0VQFnoK-Znf"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "k5jBYplL-YYw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "CKAszDsM-Z_8"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Sin of 'a' : \",np.sin(a))\n",
+        "print(\"Log od 'a' : \",np.log(a))\n",
+        "print(\"Log2 of 'a' : \",np.log2(a))\n",
+        "print(\"Exp of 'a' : \",np.exp(a))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "faIfMgj79xMS",
+        "outputId": "1a5f4f3e-2bf4-4468-a0a3-15dc4d043aa7"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sin of 'a' :  [ 0.84147098 -0.8462204   0.85090352 -0.85551998]\n",
+            "Log od 'a' :  [0.         3.13549422 3.80666249 4.20469262]\n",
+            "Log2 of 'a' :  [0.         4.52356196 5.4918531  6.06608919]\n",
+            "Exp of 'a' :  [2.71828183e+00 9.74480345e+09 3.49342711e+19 1.25236317e+29]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "u3L2blLY96PJ"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
