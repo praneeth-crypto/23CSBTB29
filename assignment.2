@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMz3Gvee8dRLOLylVnJo+W1",
+      "authorship_tag": "ABX9TyMb1feXEWUMVORZVFammvEN",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -215,6 +215,51 @@
             "4999          2022     3.443231  \n",
             "\n",
             "[5000 rows x 5 columns]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "data=pd.read_table(\"/content/aiml.txt\")\n",
+        "print(data)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Idvy3AMZADjj",
+        "outputId": "7b51c9d7-39f3-414f-edc3-ead7b6c6884b"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "        NAME  AGE    ID COURSE  NUMBER\n",
+            "0      ARNAV   19  1928    CSE    2001\n",
+            "1      PAWAN   21  1574    CSE    2002\n",
+            "2      AKASH   19  1011    BBA    2003\n",
+            "3     SUJITH   18  1575    CSE    2004\n",
+            "4     ADITYA   20  1674    BBA    2005\n",
+            "5   SHASHANK   20  1254    CSE    2006\n",
+            "6    ABHIRAM   18  1263    ECE    2007\n",
+            "7   MUDASSIR   19  1867  CIVIL    2008\n",
+            "8     NITHIN   20  1974    BBA    2009\n",
+            "9    VINEETH   20  2054    CSE    2010\n",
+            "10  PRANEETH   21  6055    CSE    2011\n",
+            "11    RAJESH   22  1747    ECE    2012\n",
+            "12     DIVYA   19  1523   MECH    2013\n",
+            "13    RUPALI   18  1647  CIVIL    2014\n",
+            "14       RAM   20  2365    CSE    2015\n",
+            "15   AVINASH   21  6523    BBA    2016\n",
+            "16      SIRI   20  8965   AGRI    2017\n",
+            "17     MEGHA   19  5698    BBA    2018\n",
+            "18     VICKY   18  5478    CSE    2019\n",
+            "19     MADHU   20  4521    ECE    2020\n"
           ]
         }
       ]
